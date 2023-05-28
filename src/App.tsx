@@ -63,7 +63,9 @@ function App() {
         Choose File
       </button>
 
-      {data.length > 0 && <pre>{JSON.stringify(data)}</pre>}
+      {data.length > 0 && (
+        <pre className='whitespace-pre-wrap text-sm'>{JSON.stringify(data, null, 2)}</pre>
+      )}
     </div>
   )
 }
