@@ -47,7 +47,7 @@ function App() {
   }
 
   return (
-    <div className='flex flex-col gap-6 justify-center items-center mt-8'>
+    <div className='mt-8 flex flex-col items-center justify-center gap-6'>
       <input
         ref={fileInputRef}
         type='file'
@@ -57,7 +57,7 @@ function App() {
       />
 
       <button
-        className='text-white text-sm bg-black px-5 py-3 rounded-lg focus:ring-2 focus:ring-offset-2 focus:ring-slate-400'
+        className='rounded-lg bg-black px-5 py-3 text-sm text-white focus:ring-2 focus:ring-slate-400 focus:ring-offset-2'
         onClick={() => fileInputRef.current?.click()}
       >
         Choose File
