@@ -1,5 +1,5 @@
 {
-  "name": "excel-to-array",
+  "name": "excel-to-json",
   "private": true,
   "version": "0.0.0",
   "type": "module",
